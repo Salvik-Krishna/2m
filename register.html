@@ -126,6 +126,10 @@
 
     <div class="form-floating">
       <input type="name" class="form-control" id="floatingInput" placeholder="name">
+      <label for="floatingInput">Name</label>
+    </div>
+    <div class="form-floating">
+      <input type="name" class="form-control" id="floatingInput" placeholder="name">
       <label for="floatingInput">Username</label>
     </div>
     <div class="form-floating">
@@ -137,10 +141,14 @@
       <label for="floatingPassword">Password</label>
     </div>
 
-    <button class="btn btn-primary w-100 py-2" type="submit">Register</button>
+    <button class="btn btn-primary w-100 py-2" type="submit" onclick="login()">Register</button>
   </form>
 </main>
 <script src="js/bootstrap.bundle.min.js"></script>
-
+<script>
+  function login() {
+    window.alert("Registration Success");
+}
+</script>
     </body>
 </html>
