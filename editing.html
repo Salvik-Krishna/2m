@@ -242,7 +242,7 @@
             <button class="button" onclick="applyTransition(5)">Transition 5</button>
             <button class="button" onclick="applyTransition(6)">Transition 6</button>
         </div>
-        <p>Ovelay Animations</p>
+        <p>Overlay Animations</p>
         
         <div class="transition-buttons">
             <button class="button" onclick="applyOverlayAnimations(1)">Overlay-Animations 1</button>
@@ -252,7 +252,17 @@
             <button class="button" onclick="applyOverlayAnimations(5)">Overlay-Animations 5</button>
             <button class="button" onclick="applyOverlayAnimations(6)">Overlay-Animations 6</button>
         </div>
+<p>Audio Input</p>
 
+        <div class="audio-controls">
+            <input type="file" id="audio-file-input">
+            <button class="button" onclick="addAudio()">Add Audio</button>
+            <button class="button" onclick="deleteAudio()">Delete Audio</button>
+        </div>
+
+        <p>Added Audio Files:</p>
+        <ul id="added-audio-list">
+        </ul>
     </div>
   </div>
   <div class="bottom-div">
