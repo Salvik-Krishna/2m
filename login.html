@@ -144,10 +144,21 @@
         <a href="register.html">Register</a>
     </center>
     <br/>
-    <button class="btn btn-primary w-100 py-2" type="submit">Login</button>
+    <button class="btn btn-primary w-100 py-2" type="submit" onclick="login()">Login</button>
   </form>
 </main>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script>
+  function login() {
+    let x = document.getElementById("floatingInput").value;
+    if (x=="admin"){
+      window.alert("Admin Login Success");
+    }
+    else{
+      window.alert("Login Success");
+    }
+}
+</script>
 
     </body>
 </html>
